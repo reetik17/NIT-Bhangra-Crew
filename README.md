@@ -6,4 +6,4 @@ objective of this project.
 
 Implemented signup/signin functionality for users to become member of our crew.
 
-# Link for website - https://nit-bhangra-crew.herokuapp.com
+Link for website - https://nit-bhangra-crew.herokuapp.com
