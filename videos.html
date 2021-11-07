@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NIT BHANGRA CREW</title>
+<link rel="icon"
+      type="image/png"
+	  href="images/tlogo.png">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Aladin&family=Balsamiq+Sans&family=Boogaloo
+&family=Buda:wght@300&family=Caveat:wght@700&family=Chewy&family=Cinzel:wght@400;700&family=Cookie&family=Cormoran
+t+Upright:wght@600;700&family=Handlee&family=Nanum+Pen+Script&family=Open+Sans+Condensed:wght@300&family=Poiret+One&
+family=Raleway:wght@500&family=Ultra&family=Yeseva+One&display=swap" rel="stylesheet">
+<style>
+
+#header{
+      width:100% !important;
+      margin: 0;
+      height:41vw;
+      background-image:url('images/back1.JPG');
+	  background-repeat: no-repeat;
+	  background-attachment:fixed;
+	  background-size: contain;
+      opacity:0.95;
+	 }
+.videos{
+       
+        width:95%;
+        margin:0 auto;
+        display:grid;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr;
+        justify-content: space-between;
+        grid-column-gap: 40px;
+        margin-top:150px;	
+        }	
+
+#tenthdiv{
+         
+         width:90%;
+         margin: 0 auto;
+         display: grid;
+         grid-template-columns: 1fr;
+         
+        }	
+			
+.video{
+        height:320px;
+		background-color:white;
+        
+        
+}
+.inlineVideo{
+    width:100%;
+    box-shadow: 10px 10px 5px 5px grey;
+    
+}
+.post2
+{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    align-content: space-around;
+    
+}   
+.post1
+{
+
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+}
+.image{
+        margin: 50px auto;
+		cursor:pointer;
+        transition: all .3s ease-in-out;
+       
+        }
+.image img
+{
+    width: 100%;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2), 6px 6px 6px 6px rgba(0, 0, 0, 0.19);
+    
+    margin: 0 auto;
+}		
+
+.photo1:hover{
+        box-shadow: rgba(0, 0, 0, 0.22) 0px 29px 43px;
+        transform: translate3d(0px, -1px, 0px);
+}	
+
+
+@media screen and ( max-width:600px )
+{
+    .videos
+    {
+        grid-template-columns: 1fr !important;
+    }
+    .post1,.post2
+    {
+        grid-template-columns: 90%;
+    }
+}
+</style>
+
+<script type="text/javascript">
+    window.addEventListener('load', function(event){
+        document.querySelectorAll(".inlineVideo").forEach((el) => {
+            el.onplay = function(e){
+                // pause all the videos except the current.
+                document.querySelectorAll(".inlineVideo").forEach((el1) => {
+                    if(el === el1)
+                        el1.play();
+                    else
+                        {
+                            el1.pause();
+                            el1.load();
+
+                        }
+                });
+            }
+        });
+    });
+	
+	</script>   
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>           
+<body>
+
+<div id="header"><br><br><br>
+<h1>NIT BHANGRA CREW</h1><br>
+<h2>"Keep Calm & Bhangra On"</h2>
+</div>
+<div id="seconddiv">
+    <div><a class="a1" href="index.html">Home</a></div>
+    <div><a class="a1" href="videos.html">Videos</a></div>
+    <div><img class="img1" src="images/tlogo.png" alt="not available"></div>
+    <div><a class="a1" href="inductions.html">Inductions</a></div>
+    <div><a class="a1" href="contact.html">Contact Us</a></div>
+</div><br>
+
+<div class="brandname">
+    <div class="startline">
+    </div>
+    <div class="brandtext" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <center><span>Videos</span></center>
+    </div>
+    <div class="endline">
+    </div>
+</div>
+<div class="videos">
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v3.mp4" type="video/mp4"></video>
+</div>
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v8.mp4" type="video/mp4"></video>
+</div>
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v2.mp4" type="video/mp4"></video>
+</div>
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v4.mp4" type="video/mp4"></video>
+</div>         
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v6.mp4" type="video/mp4"></video>
+</div>
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo" poster="images/tlogo.png" controls>
+   <source src="images/v5.mp4" type="video/mp4"></video>
+</div>
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v7.mp4" type="video/mp4"></video>
+</div>
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v1.mp4" type="video/mp4"></video>
+</div>
+<div class="video" data-aos="zoom-out-up">
+<video class="inlineVideo"  poster="images/tlogo.png" controls>
+   <source src="images/v9.mp4" type="video/mp4"></video>
+</div>
+</div>
+<div class="brandname">
+    <div class="startline">
+    </div>
+    <div class="brandtext" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <center><span id="his">Photo Gallery</span></center>
+    </div>
+    <div class="endline">
+    </div>
+</div>
+
+
+
+<div id="tenthdiv">
+    <div class="post2">
+        <div class="image">
+            <img data-aos="flip-left" src="./images/i1.JPG" height="400px" width="100%" alt="error">
+        </div>
+        <div class="image">
+            <img data-aos="flip-left" src="./images/i2.jpg" height="400px" width="100%" alt="error">
+        </div>
+
+    </div>
+
+    <div class="post1">
+        <div class="image">
+        <img data-aos="flip-left" src="./images/i4.JPG" height="400px" width="100%" alt="error">
+        </div>
+    </div>
+
+    <div class="post2">
+        <div class="image">
+            <img data-aos="flip-left" src="./images/b7.jpg" height="400px" width="100%" alt="error">
+        </div>
+        <div class="image">
+            <img data-aos="flip-left" src="./images/b6.jpg" height="400px" width="100%" alt="error">
+        </div>
+    
+    </div>
+
+    <div class="post1">
+        <div class="image">
+            <img data-aos="flip-left" src="./images/b5.jpg" height="450px" style="width: auto;" alt="error">
+        </div>
+    </div>
+    <div class="post1">
+        <div class="image">
+            <img data-aos="flip-left" src="./images/i5.JPG" height="450px" width="100%" alt="error">
+        </div>
+    </div>
+
+
+
+
+
+
+<div class="i6 photo1" data-aos="flip-left">
+
+</div>
+<div class="i7 photo1" data-aos="flip-left">
+
+</div>
+</div>
+    <div class="footer">
+        <div class="logos">
+            <h2 id="nbc">
+                NIT BHANGRA CREW
+            </h2>
+            <div class="icons">
+                <img class="icon" src="images/insta.png" alt="error">
+                <img class="icon" src="images/fb.png" alt="error">
+                <img class="icon" src="images/gmail.png" alt="error">
+                <img class="icon" src="images/youtube.png" alt="error">
+            </div>
+        </div>
+        <div class="newsletter">
+            <div id="signin">
+                NEWSLETTER
+            </div>
+            <div class="form">
+                <form>
+                    <input type="text" id="fname" name="fname" placeholder="Email Address">&nbsp;&nbsp;<button
+                        for="fname">Sign
+                        UP</button>
+                    <center></center>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <h3>© NBC</h3>
+    </div>
+
+<script>
+  AOS.init({
+  duration:1200,});
+</script>
+</body>
+</html>
+
+		 

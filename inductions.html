@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NIT BHANGRA CREW</title>
+<link rel="icon"
+      type="image/png"
+	  href="images/tlogo.png">
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	  
+	<link rel="stylesheet" href="./styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Aladin&family=Balsamiq+Sans&
+	family=Boogaloo&family=Buda:wght@300&family=Caveat:wght@700&family=Chewy&family=Cinzel:wght@400;700&family=Cooki
+	e&family=Cormorant+Upright:wght@600;700&family=Handlee&family=Nanum+Pen+Script&family=Open+Sans+Condensed:wght@300
+	&family=Poiret+One&family=Raleway:wght@500&family=Ultra&family=Yeseva+One&display=swap" rel="stylesheet">
+<style>
+#header{
+      width:100% !important;
+      margin: 0;
+      height:41vw;
+      background-image:url('images/2.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment:fixed;
+	  background-size: contain;
+      opacity:0.95;
+	 }
+.title
+{
+    width: 90%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}	 
+.titles{
+
+	  display:grid;
+      padding: 0 auto;
+      grid-template-columns: 1fr;
+      margin: 10px;
+      
+	  }	
+ .line{
+	 
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 20px;
+}	  
+.ab{
+    
+    font-size:30px;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-style:bold;
+    height: 40px;
+  }	   
+.abc{
+	
+    font-size:25px;
+    color:black;
+    font-family: 'Cinzel', serif;
+  }		
+.posterbackground{
+	display: grid;
+    grid-template-columns: 50%;
+    justify-content: space-evenly;
+    align-content: space-around;
+	  background-image: url('images/back.jpg');
+	
+}	
+.inductionposter{
+	  margin: 50px auto;
+	  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2), 6px 6px 6px 6px rgba(0, 0, 0, 0.19);
+	  border-radius: 15px;
+}
+.poster1{
+	margin: 0;    
+}
+.poster1 img
+{
+	width: 100%;
+	margin: 0 auto;
+}	
+.brief{
+	margin: 0;
+	height: 4vw;
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-content: center;
+   align-content: center;
+}
+.brief1{
+	margin: 2px auto;
+	color: black;
+	font-size: 1.5vw;
+	font-style: bold;
+	font-family: Cormorant Garamond', serif;
+}
+.formback{
+	margin: 6vw 0;
+	
+	display: grid;
+	grid-template-columns: 0.7fr;
+	justify-content: center;
+	background-color: black;
+	
+	
+}
+.container{
+	  
+	  margin: 100px;
+	  box-shadow: 10px 6px 6px 6px rgba(207, 205, 205, 0.2), 6px 6px 6px 6px rgba(71, 71, 71, 0.19);
+	  
+	  border-radius: 10px;
+	  
+}
+.joinus{
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 3vw;
+	font-family: 'Cinzel', serif;
+	text-decoration: underline;
+	color: #D1A64B;
+	
+}
+.formdiv{
+	
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+;
+	
+}
+form{
+	padding: 20px;
+}
+
+.name{
+	
+	margin-top: 1vw;
+	width: 15vw;
+	color:#D1A64B;
+	font-size: 2vw;
+	font-family: 'Abhaya Libre', serif;
+	font-weight: bold;
+	}
+#induc input{
+	border: none;
+	border-bottom: 1px solid#D1A64B;
+	padding: 0.5vw;
+	font-size: 1vw;
+	font-family: 'Abhaya Libre', serif;
+	background: transparent;
+	color: #D1A64B;
+}
+button{
+	padding: 0.5vw;
+	font-size: 1vw;
+	font-family: 'Abhaya Libre', serif;
+	background-color: #D1A64B;
+}
+.option{
+	padding: 0.5vw;
+	font-size: 1vw;
+	font-family: 'Abhaya Libre', serif;
+	color: #D1A64B;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #D1A64B;
+}
+.radio{
+	font-size: 1vw;
+	font-family: 'Abhaya Libre', serif;
+}
+#student{
+	
+	margin-top: 1vw;
+	width: 15vw;
+	color:#D1A64B;
+	font-weight: bold;
+	font-size: 1.8vw;
+	font-family: 'Abhaya Libre', serif;
+	}
+.whyjoin{
+	height:5vw;
+	font-size: 1vw;
+	font-family: 'Abhaya Libre', serif;
+	border: 1px solid #D1A64B;
+}
+label{
+	color: #D1A64B
+}
+@media screen and ( max-width:600px )
+{
+  .title
+  {
+      width: 90%;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+  }
+  .container{
+	  width: 100%;
+	  margin: 15vw auto;
+      grid-template-columns: 1r;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .formback{
+
+	grid-template-columns: 0.9fr !important;
+	
+}
+.joinus,
+.name,
+input,
+button,
+.option,
+.radio,
+#student,
+.whyjoin{
+	font-size: 4vw !important;
+} 
+}	
+</style>
+<script type="text/javascript">
+	function validate(){
+		var firstname = document.getElementById("firstname").value;
+        var lastname = document.getElementById("lastname").value;
+		var mobile = document.getElementById("code").value;
+		var joinus = document.getElementById("whyjoin").value;
+        if(firstname.length<4)
+		{
+			alert('First Name should contain atleast 4 characters');
+			return false;
+		}
+		if(lastname.length<4)
+		{
+			alert('Last Name should contain atleast 4 characters');
+			return false;
+		}
+		if(joinus.length<20)
+		{
+			alert('Why to join us field requires characters greater than 20');
+			return false;
+		}
+		if(isNaN(mobile))
+		{
+			alert('Mobile Number only consist of numbers');
+			return false;
+		}
+		if(mobile.length<10||mobile.length>10)
+		{
+			alert('Invalid Mobile Number');
+			return false;
+		}
+		if((mobile.charAt(0)!=9)&&(mobile.charAt(0)!=8)&&(mobile.charAt(0)!=7)&&(mobile.charAt(0)!=6))
+		{
+			alert('Mobile number only starts with 9,8,7,6');
+			return false;
+		}
+
+		else{
+			return true;
+		}
+	}
+</script>
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<body>
+<div id="main">
+<div id="header"><br><br><br>
+<h1>NIT BHANGRA CREW</h1><br>
+<h2>"Keep Calm & Bhangra On"</h2>
+</div>
+<div id="seconddiv">
+	<div><a class="a1" href="index.html">Home</a></div>
+	<div><a class="a1" href="videos.html">Videos</a></div>
+	<div><img class="img1" src="images/tlogo.png" alt="not available"></div>
+	<div><a class="a1" href="inductions.html">Inductions</a></div>
+	<div><a class="a1" href="contact.html">Contact Us</a></div>
+</div>
+<div class="title">
+    <div class="titles" data-aos="fade-up"> 
+       <div>
+            <center><span class="ab">WORKSHOPS</span></center>
+            <div class="line">
+            </div><br>
+       </div>
+        <center><span class="abc">We host workshops on the regular basis,so that you can able to improve your 
+			Bhangra Skill. </span></center>
+    </div>
+    <div class="titles" data-aos="fade-up">  
+        <div>  
+            <center><span class="ab">CLASSES</span></center>  
+            <div class="line">
+			</div><br><br><br>  
+        </div>  
+        <center><span class="abc"> With classes on regular basis, you can learn the steps from our experienced 
+			crew mates to improve your skills.      
+            </span></center><br>     
+       
+    </div>
+    <div class="titles" data-aos="fade-up">            
+      <div>
+            <center><span class="ab">CHOREOGRAPHY</span></center>          
+            <div class="line">
+            </div><br>                    
+      </div>
+        <center><span class="abc">Our experienced choreographers will provide you with the best dance moves and 
+			tutorials for your upcoming event.
+            </span></center>
+    </div>
+
+</div>
+<div class="posterbackground"> +
+	       
+<div class="inductionposter" data-aos="zoom-out-down">
+<div class="poster1">
+	<img  src="images/pos.jpg" alt="not shown">	     
+</div>	
+<div class="brief">
+	<div class="brief1">
+<center>LOOKING FOR PASSIONATE AND DEDICATED<br> BHANGRACHI</center>	
+     </div>
+</div>
+</div>
+</div>
+<div class="formback">
+	<div class="container" data-aos="flip-left"                                    
+	data-aos-easing="ease-out-cubic"
+	data-aos-duration="2000">
+		<div class="joinus">
+			<h3>Join Our Crew</h3>
+		</div>
+		<div class="formdiv">
+			<form onsubmit="return validate();" id="induc" method="get">
+				
+					<h4 class="name">Name:</h4>
+					<input type="text" id="firstname" name="first_name" placeholder="First Name" required><br><br>
+					<input type="text" id="lastname" name="last_name" placeholder="Last Name" required>
+				<br><br>
+
+				<h4 class="name">Your Branch:</h4>
+				<input type="text" class="branch" name="branch" required>
+
+				<h4 class="name">Year:</h4>
+				<select class="option" name="year">
+					<option disabled="disabled" selected="selected">Choose Your Year</option>
+					<option>1st</option>
+					<option>2nd</option>
+					<option>3rd</option>
+					<option>4th</option>
+				</select>
+
+				<h4 class="name">Email id:</h4>
+				<input type="email" name="email" class="email" required>
+
+				<h4 class="name">Mobile no.:</h4>
+				<input type="text" name="area_code" id="code" required>
+
+				<h4 id="student">Are You Beginner?</h4><br>
+				<label class="radio">
+					<input type="radio" >
+					
+					Yes
+				</label>
+				<label class="radio">
+					<input type="radio">
+				
+					No
+					</label>
+
+				<h4 class="name">Why You Want To Join?</h4>
+				<input type="text" id="whyjoin" name="whyjoin" required><br><br>
+			
+				<button type="submit">Submit</button> 
+
+			</form>
+		</div>
+	</div>
+
+
+
+
+</div>
+	<div class="footer">
+		<div class="logos">
+			<h2 id="nbc">
+				NIT BHANGRA CREW
+			</h2>
+			<div class="icons">
+				<img class="icon" src="images/insta.png" alt="error">
+				<img class="icon" src="images/fb.png" alt="error">
+				<img class="icon" src="images/gmail.png" alt="error">
+				<img class="icon" src="images/youtube.png" alt="error">
+			</div>
+		</div>
+		<div class="newsletter">
+			<div id="signin">
+				NEWSLETTER
+			</div>
+			<div class="form">
+				<form>
+					<input type="text" id="fname" name="fname" placeholder="Email Address">&nbsp;&nbsp;<button
+						for="fname">Sign
+						UP</button>
+					<center></center>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="copy">
+		<h3>© NBC</h3>
+	</div>
+</div>
+
+<script>
+	AOS.init({
+	duration:1200,});
+  </script>
+</body>
+</html>
